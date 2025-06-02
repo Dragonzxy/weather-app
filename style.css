@@ -104,6 +104,27 @@ font-size: medium;
 color: white;
 }
 
+
 #icon{
 width: 130px;
+filter: drop-shadow(1px 1px 3px  black);
+animation: bounce infinite 1s;
+transition: .3s ease;
+
 }
+@keyframes bounce {
+      0%{
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+      }
+      50% {
+        transform: translateY(-10px);
+        animation-timing-function: ease-out;
+      }
+
+      100%{
+        transform: translateY(0);
+        animation-timing-function: ease-in;
+      }
+}
+
