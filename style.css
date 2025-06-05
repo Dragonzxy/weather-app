@@ -32,7 +32,8 @@ main{
     padding: 10px;
     border-radius: 30px;
 
-    height: 60vh;
+ 
+    height: auto;
 
 }
 input{
