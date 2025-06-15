@@ -15,6 +15,14 @@ button.addEventListener("click", async()=>{
     city = await document.getElementById("searchbox").value.trim();
 getWeather(city);
 })
+searchBox.addEventListener("keydown", async()=>{
+if(event.key==="Enter"){
+         city = await document.getElementById("searchbox").value.trim();
+getWeather(city)
+}     
+;
+})
+
 
 async function getWeather(city) 
 {
